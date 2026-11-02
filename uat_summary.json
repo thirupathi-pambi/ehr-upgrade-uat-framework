@@ -1,0 +1,27 @@
+{
+  "total": 7,
+  "pass_rate_pct": 71.4,
+  "open_defects": [
+    "D001",
+    "D002"
+  ],
+  "release_gate": "REVIEW REQUIRED",
+  "by_module": {
+    "Billing": {
+      "pass": 1
+    },
+    "Clinical": {
+      "pass": 2
+    },
+    "Registration": {
+      "pass": 1
+    },
+    "Reporting": {
+      "blocked": 1
+    },
+    "Scheduling": {
+      "pass": 1,
+      "fail": 1
+    }
+  }
+}

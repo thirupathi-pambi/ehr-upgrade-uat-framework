@@ -1,0 +1,8 @@
+case_id,module,scenario,expected_result,status,defect_id
+U001,Registration,Add fictional patient,Registration succeeds,pass,
+U002,Scheduling,Book appointment,Slot reserved,pass,
+U003,Scheduling,Reschedule appointment,Updated slot visible,fail,D001
+U004,Clinical,Save mock note,Note persists,pass,
+U005,Reporting,Export encounters,Counts match expected,blocked,D002
+U006,Billing,Create test charge,Charge queued,pass,
+U007,Clinical,Medication allergy warning,Alert appears,pass,
